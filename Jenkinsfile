@@ -8,7 +8,7 @@ pipeline {
             }
         stage('2nd stage'){
             steps {
-                cat 'Jenkinsfile'
+                echo 'Jenkinsfile'
                 }
             }
         stage('3rd stage'){
